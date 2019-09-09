@@ -1,5 +1,5 @@
 # virtual-swiper-slides-angular8
-Basic example of creating virtual slides with Swiper within an Angular 8 Application
+Basic example of creating virtual slides with Swiper within an Angular 8 Application using <code>renderSlide()</code> function
 
 Notice that:
 <ul>
@@ -9,3 +9,5 @@ Notice that:
   <li>the <code>renderSlide()</code> function in <a href="src/app/app.component.ts">src/app/app.component.ts</a> sets the swiper-slide class on the div it returns
   <li>the <code>.swiper-slide</code> styles are specified in <a href="src/styles.scss">src/styles.scss</a> (not <a href="src/app/app.component.scss">src/app/app.component.scss</a>)</li>
 </ul>
+
+For an example using the <code>renderExternal()</code> function (instead of <code>renderSlide()</code>) see https://github.com/Jumble123/virtual-swiper-slides-angular8-renderExternal.
