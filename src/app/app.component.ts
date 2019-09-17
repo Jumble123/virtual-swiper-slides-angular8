@@ -1,6 +1,5 @@
 import { Component, AfterViewInit } from '@angular/core';
-
-declare var Swiper: any;
+import Swiper from 'swiper/dist/js/swiper.esm.bundle';
 
 @Component({
   selector: 'app-root',
